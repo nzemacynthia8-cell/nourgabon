@@ -259,17 +259,6 @@ section h2 {
   border-radius: 10px;
 }
 
-/* Alignement horizontal strict sur toute la largeur de l'écran */
-.video-grid {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: nowrap !important; 
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 30px;
-  width: 100%;
-}
-
 .video-item {
   flex: 1;
   min-width: 0;
