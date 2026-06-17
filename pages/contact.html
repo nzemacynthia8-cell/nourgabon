@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - NOUR TV Gabon</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <img src="../images/logo.png" alt="Logo NOUR TV" class="logo">
+    <h1>Contactez NOUR TV Gabon</h1>
+    <nav>
+      <a href="../index.html">Accueil</a>
+      <a href="programmes.html">Programmes</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- CONTENU -->
+  <main class="container">
+    <section class="contact-section">
+      <h2 class="contact-title">Informations de Contact</h2>
+      <div class="info-grid">
+        <div>
+          <div class="info-item">
+            <div class="info-label">📍 Adresse du Siège</div>
+            <div class="info-value">Batavea, Libreville, Gabon</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">📡 Fréquence Radio</div>
+            <div class="info-value">95.00 FM</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">📺 Canal Télévision</div>
+            <div class="info-value">Canal 479.25 MHZ / SATCON Canal 7</div>
+          </div>
+        </div>
+        <div>
+          <div class="info-item">
+            <div class="info-label">📧 Email Assistance</div>
+            <div class="info-value">nourtvgabon@gmail.com</div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">📞 Téléphone</div>
+            <div class="info-value"><a href="tel:066246148">066246148</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-label">🏛️ Autorité</div>
+            <div class="info-value">Conseil Supérieur des Affaires Islamique du Gabon (CSAIG)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2 class="contact-title">Formulaire de Contact</h2>
+      <p>Remplissez ce formulaire pour nous écrire. Nous répondons à toutes vos demandes dans les plus brefs délais.</p>
+      <form action="/contact" method="POST">
+        <label class="form-label">Nom complet</label>
+        <input type="text" name="nom" required placeholder="Votre nom">
+
+        <label class="form-label">Email</label>
+        <input type="email" name="email" required placeholder="Votre email">
+
+        <label class="form-label">Téléphone</label>
+        <input type="tel" name="telephone" placeholder="Votre numéro de téléphone">
+
+        <label class="form-label">Sujet</label>
+        <input type="text" name="sujet" required placeholder="Sujet de votre message">
+
+        <label class="form-label">Message</label>
+        <textarea name="message" rows="5" required placeholder="Votre message..."></textarea>
+
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </section>
+
+    <section class="contact-section">
+      <h2 class="contact-title">Suivez NOUR TV</h2>
+      <a href="https://www.facebook.com/p/NOUR-RADIO-TV-Officiel-100063634954197/?locale=fr_FR" class="social-link">📘 Facebook - NOUR RADIO TV Officiel</a><br>
+      <a href="https://www.youtube.com/@nourtvgabon9085" class="social-link">📺 YouTube - NOURTVGABON</a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p class="devise">AU SERVICE DU DÉVELOPPEMENT</p>
+    <p>&copy; 2026 NOUR TV Gabon - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
